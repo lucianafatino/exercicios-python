@@ -7,3 +7,5 @@ hec = n1 / 100
 dam = n1 / 10
 dm = n1 * 10
 print('A medida de {:.1f} metros corresponde a:\n{:.0f} cm\n{:.0f} mm\n{:.3f} km\n{:.2f} hm\n{:.1f} dam\n{:.0f} dm'.format(n1, cen, mi, km, hec, dam, dm))
+
+#teste
