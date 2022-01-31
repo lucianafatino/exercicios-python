@@ -6,3 +6,17 @@ acordo com a tabela abaixo:
     - 30 até 40: OBESIDADE
     - Acima de 40: OBESIDADE MÓRBIDA
 '''
+peso = float(input('Digite o seu peso: '))
+altura = float(input('Digite a sua altura: '))
+imc = peso / (altura**2)
+print('O seu IMC é de {:.1f}'.format(imc))
+if imc < 18.5:
+    print('Você está ABAIXO DO PESO.')
+elif 18.5 <= imc < 25:
+    print('Você está com o PESO IDEAL.')
+elif 25 <= imc < 30:
+    print('Você está com SOBREPESO.')
+elif 30 <= imc < 40:
+    print('Você está com OBESIDADE.')
+else:
+    print('Você está com OBESIDADE MÓRBIDA.')
