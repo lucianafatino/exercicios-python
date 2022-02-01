@@ -1,0 +1,1 @@
+'''Refaça o desafio 009, mostrando a tabuada de um número que o usuário escolher, só que agora faça utilizando o laço for'''
